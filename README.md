@@ -35,7 +35,7 @@ Then open Grafana at: [http://localhost:3000](http://localhost:3000)
 
 - ✅ Docker Compose setup
 - ⚡ Auto dashboard import
-- 📁 Configurable datasources
+- 📁 Configured datasources
 - 🔐 Optional SSO integration (planned)
 - 🛡️ Reverse proxy ready (NGINX/Traefik)
 - 💾 Volume persistence
