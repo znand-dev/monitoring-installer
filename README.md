@@ -1,24 +1,24 @@
-# 🧰 Monitoring Stack Installer
+# Monitoring Stack Installer
 
 One-click installer to deploy a full monitoring stack using **Prometheus + Grafana + Loki + Promtail + Node Exporter + Portainer** with Docker Compose.  
 Built for easy self-hosted monitoring, including auto dashboard provisioning & optional SSO/reverse proxy.
 
 ---
 
-## 📦 Components
+## Components
 
 | Service         | Description                             |
 |------------------|-----------------------------------------|
-| 🔎 Prometheus     | Metrics collection & alerting           |
-| 📊 Grafana        | Visualization dashboard for everything  |
-| 📦 Loki           | Centralized logging (via Promtail)      |
-| 📜 Promtail       | Log shipper agent for Loki              |
-| 📡 Node Exporter  | System-level metrics collector          |
-| 🧠 Portainer      | Web UI to manage Docker environments    |
+| Prometheus     | Metrics collection & alerting           |
+| Grafana        | Visualization dashboard for everything  |
+| Loki           | Centralized logging (via Promtail)      |
+| Promtail       | Log shipper agent for Loki              |
+| Node Exporter  | System-level metrics collector          |
+| Portainer      | Web UI to manage Docker environments    |
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 git clone https://github.com/znand-dev/monitoring-installer.git
@@ -31,18 +31,18 @@ Then open Grafana at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## ⚙️ Features
+## Features
 
-- ✅ Docker Compose setup
-- ⚡ Auto dashboard import
-- 📁 Configured datasources
-- 🔐 Optional SSO integration (planned)
-- 🛡️ Reverse proxy ready (NGINX/Traefik)
-- 💾 Volume persistence
+- Docker Compose setup
+- Auto dashboard import
+- Configured datasources
+- Optional SSO integration (planned)
+- Reverse proxy ready (NGINX/Traefik)
+- Volume persistence
 
 ---
 
-## 🧪 Stack Preview
+## Stack Preview
 
 | URL                   | Service       | Default Port        |
 |------------------------|----------------|----------------------|
@@ -53,7 +53,7 @@ Then open Grafana at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🔧 Folder Structure
+## Folder Structure
 
 ```
 monitoring-installer/
@@ -75,17 +75,17 @@ monitoring-installer/
 
 ---
 
-## 📥 Dashboard Examples
+## Dashboard Examples
 
-- 📊 Node Exporter Full (ID: `1860`)
-- 📦 Loki System Logs (ID: `15172`)
-- 🧠 Docker Container Monitoring
+- Node Exporter Full (ID: `1860`)
+- Loki System Logs (ID: `15172`)
+- Docker Container Monitoring
 
 > Import manually or add your own to `config/grafana/dashboards/`
 
 ---
 
-## 🧼 Uninstall
+## Uninstall
 
 To remove the entire stack:
 
@@ -95,7 +95,7 @@ bash scripts/uninstall.sh
 
 ---
 
-## 🛠️ To Do
+## To Do
 
 - [ ] 🔐 Add SSO support (Authelia / Keycloak)
 - [ ] 🌐 Add NGINX/Traefik reverse proxy
@@ -104,12 +104,12 @@ bash scripts/uninstall.sh
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
-> 🧠 [znand-dev](https://github.com/znand-dev) – Made with 🔥 in Indonesia
+> 🧠 [znand-dev](https://github.com/znand-dev) – Made in Indonesia
 
 ---
 
-## 📄 License
+## License
 
 MIT
